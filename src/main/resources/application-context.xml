@@ -8,7 +8,7 @@
     <!-- Definirea bean-urilor pentru ClientRepository și Banking -->
     <bean id="mapClientRepository" class="com.luxoft.bankapp.service.storage.MapClientRepository" autowire="byType"/>
 
-    <bean id="banking" class="com.luxoft.bankapp.service.BankingImpl" autowire="byType"/>
+    <bean id="banking" class="com.luxoft.bankapp.service.BankingImpl"/>
 
     <bean id="bankReport" class="com.luxoft.bankapp.service.BankReportServiceImpl" autowire="byType"/>
 
