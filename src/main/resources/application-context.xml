@@ -12,4 +12,8 @@
 
     <bean id="bankReport" class="com.luxoft.bankapp.service.BankReportServiceImpl" autowire="byType"/>
 
+    <bean class="org.springframework.context.support.PropertySourcesPlaceholderConfigurer">
+        <property name="location" value="clients.properties"/>
+    </bean>
+
 </beans>
